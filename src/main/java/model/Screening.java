@@ -30,6 +30,10 @@ public final class Screening {
         return movie;
     }
 
+    public boolean hasSecreeningId(long screeningId) {
+        return this.screeningId == screeningId;
+    }
+
     public int totalSeatCount() {
         return seatLayout.totalCount();
     }
